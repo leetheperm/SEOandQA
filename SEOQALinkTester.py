@@ -20,20 +20,20 @@ keys = Keys()
 x = datetime.datetime.now()
 
 data = ("""
-https://www.samsung.com/uk/
+https://www.website.com/uk/
 """)
 
 strip_data = data.strip()
 split_data = strip_data.splitlines()
 # print(split_data)
 
-class samsungQA:
+class webQA:
 	def __init__(self):
 		self.driverChrome = webdriver.Chrome(options = options, executable_path='/Users/Perm/Downloads/chromedriver')
 
 	def openLinks(self):
 		browser = self.driverChrome
-		browser.get('http://qaweb.samsung.com/uk')
+		browser.get('http://www.website.com/uk')
 		time.sleep(2)
 		try:
 			usernameEntry = browser.find_element_by_id('username')
@@ -148,5 +148,5 @@ class samsungQA:
 					continue
 			print('broken Links check is complete for  website')			
 
-run = samsungQA()
+run = webQA()
 run.openLinks()
