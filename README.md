@@ -95,6 +95,12 @@ https://www.website.com
 https://www.website2.com
 """)
 ```
+## Last tested
+Tuesday July 24th 2019
+
+## Last updated
+
+Tuesday July 24th 2019
 
 ## Authors
 
