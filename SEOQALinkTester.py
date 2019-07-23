@@ -29,7 +29,7 @@ split_data = strip_data.splitlines()
 
 class webQA:
 	def __init__(self):
-		self.driverChrome = webdriver.Chrome(options = options, executable_path='/Users/Perm/Downloads/chromedriver')
+		self.driverChrome = webdriver.Chrome(options = options, executable_path='/Users/Your.name/Downloads/chromedriver')
 
 	def openLinks(self):
 		browser = self.driverChrome
