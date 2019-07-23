@@ -87,17 +87,14 @@ options.add_argument('--headless')
 ```
 ### Changing target url
 
-You can change the target url by pasting your desired url within the quotations.
+You can change the target url by pasting your desired url within the quotations. If you want to add multiple links *there can be no white space inbetween each link*.
 
 ```
-url = ("https://www.website.com")
+url = ("""
+https://www.website.com
+https://www.website2.com
+""")
 ```
-### Errors
-Issue:
-Link cannot be qaweb-shop link
-Fix:
-remove shop and try qaweb.website.com
-
 
 ## Authors
 
